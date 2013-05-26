@@ -14,6 +14,7 @@
 \usepackage{listings}
 \usepackage{semantic}
 \usepackage{multicol}
+\usepackage{hyperref}
 \reservestyle{\command}{\textbf}
 \command{accept, request, in}
 \bibliographystyle{alphadin}
@@ -168,7 +169,17 @@
 \begin{frame}[allowframebreaks]
   \frametitle{Quellen}
 
-  \bibliography{main}
+  \nocite{UmrechnungGoldmark}
+  \nocite{buernheim1997bahnen}
+  \nocite{hoeltge1992hessen}
+  \nocite{BybaneBergen}
+  \nocite{BergenCurrentStatus}
+  \nocite{midttrafik}
+  \nocite{UmrechnungKronen}
+
+  \begin{scriptsize}
+    \bibliography{main}
+  \end{scriptsize}
 \end{frame}
 
 % ----------------------------------------------------------
