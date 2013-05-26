@@ -1,0 +1,62 @@
+% -*- flyspell-dict: "english" -*-
+
+\documentclass{beamer}
+\mode<presentation>{
+  \usetheme{Warsaw}
+}
+
+\usepackage[english,american]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{semantic}
+\usepackage{multicol}
+\reservestyle{\command}{\textbf}
+\command{accept, request, in}
+\bibliographystyle{alphadin}
+
+% ----------------------------------------------------------
+% title page:
+
+\title{}
+
+\author{}
+\institute{\\ \vspace{1em}
+  Institute of Computer Science\\
+  Freie Universität Berlin}
+
+\day=28 \month=05 \year=2013
+\date{\today}
+
+% ----------------------------------------------------------
+
+\begin{document}
+
+% ----------------------------------------------------------
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% ----------------------------------------------------------
+
+\begin{frame}
+  \frametitle{Table of contents}
+
+  \setcounter{tocdepth}{2}
+  \tableofcontents
+\end{frame}
+
+% ----------------------------------------------------------
+
+\begin{frame}[allowframebreaks]
+  \frametitle{References}
+
+  \bibliography{main}
+\end{frame}
+
+% ----------------------------------------------------------
+
+\end{document}
