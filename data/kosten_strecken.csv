@@ -1,19 +1,18 @@
-kind,   name,           place,          costs,          estCosts,       length, stations        year
-Tram,   BA3,            Magdeburg,      22,             unknown,        3.6,    8,              2012
-Tram,   VerlaengL1,     Bremen,         unknown,        62,             4.8,    10,             2013
-Tram,   Vauban,         Freiburg,       18.7,           unknown,        -1,     5,              2007
-Tram,   Zähringen,      Freiburg,       unknown,           28.3,        1.8,    unknown,        2014
-Tram,   ersteStrecke,   Darmstadt,      5.1,            unknown,        5.5,    unknown,        1897
-Tram,   diverssAusbau,  Darmstadt,      5.6,            unknown,        5.98,   unknown,        1903
-Tram,   Ruhbank,        Stuttgart,      unknown,        unknown,        4.922,  8,              2007
-Tram,   Stammheim,      Stuttgart,      unknown,        unknown,        2.985,  5,              2011
-Tram,   Hauptbahnhof,   Berlin,         unknown,        unknown,        2.4,    3,              2014
-Tram,   Abschnitt,      Bergen,         unknown,        110,            9.8,    unknown,        2010
-Tram,   Netz            Århus,          unknown,        65,             12,     unknown,        2016
-Tram,   T1,             Toulouse,       212,            unknown,        11,     18,             2010
-
-UBahn,  Hafencity,      Hamburg,        323.6,          unknown,        4,      2,              2012
-UBahn,  U5Lücke,        Berlin,         unknown,        190,            2.2,    3,              2019
-UBahn,  Netz,           Dubai,          5700,           3800,           76,     47,             2011
-UBahn,  LinieB,         Toulouse,       1150,           unknown,        16.2,   20,             2007
-UBahn,  Netz,           Brescia,        600,            unknown,        13.7,   17,             2012
+kind,name,place,costs,estCosts,length,stationsyear
+Tram,BA3,Magdeburg,22,unknown,3.6,8,2012
+Tram,VerlaengL1,Bremen,unknown,62,4.8,10,2013
+Tram,Vauban,Freiburg,18.7,unknown,4.2,5,2007
+Tram,Zähringen,Freiburg,unknown,28.3,1.8,unknown,2014
+Tram,ersteStrecke,Darmstadt,5.1,unknown,5.5,unknown,1897
+Tram,diverssAusbau,Darmstadt,5.6,unknown,5.98,unknown,1903
+Tram,Ruhbank,Stuttgart,unknown,46,4.922,8,2007
+Tram,Stammheim,Stuttgart,105,unknown,2.985,5,2011
+Tram,Hauptbahnhof,Berlin,unknown,unknown,2.4,3,2014
+Tram,Abschnitt,Bergen,unknown,110,9.8,unknown,2010
+Tram,NetzÅrhus,unknown,65,12,unknown,2016
+Tram,T1,Toulouse,212,unknown,11,18,2010
+UBahn,Hafencity,Hamburg,323.6,unknown,4,2,2012
+UBahn,U5Lücke,Berlin,unknown,190,2.2,3,2019
+UBahn,Netz,Dubai,5700,3800,76,47,2011
+UBahn,LinieB,Toulouse,1150,unknown,16.2,20,2007
+UBahn,Netz,Brescia,900,600,13.7,17,2012
