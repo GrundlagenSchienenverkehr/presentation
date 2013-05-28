@@ -1,4 +1,4 @@
-kind,name,place,costs,estCosts,length,stationsyear
+kind,name,place,costs,estCosts,length,stations,year
 Tram,BA3,Magdeburg,22,unknown,3.6,8,2012
 Tram,VerlaengL1,Bremen,unknown,62,4.8,10,2013
 Tram,Vauban,Freiburg,18.7,unknown,2.5,5,2007
@@ -16,3 +16,4 @@ UBahn,U5Lücke,Berlin,unknown,190,2.2,3,2019
 UBahn,Netz,Dubai,5700,3800,76,47,2011
 UBahn,LinieB,Toulouse,1150,unknown,16.2,20,2007
 UBahn,Netz,Brescia,900,600,13.7,17,2012
+UBahn,U3,Nürnberg,unknown,360,3.6,17,unknown
